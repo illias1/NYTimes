@@ -1,2 +1,0 @@
-# NYTimes
-Created with CodeSandbox

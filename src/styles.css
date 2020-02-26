@@ -1,0 +1,162 @@
+element {
+  --reviewWidth: 40%;
+}
+
+.App {
+  width: 100%;
+}
+.footer {
+  background: black;
+  color: white;
+  display: flex;
+  justify-content: space-evenly;
+  bottom: 0;
+  width: 100%;
+  margin-left: -8px;
+  padding: 0.7em;
+  position: inherit;
+  margin-top: 2em;
+}
+.header {
+  border-bottom: solid 1px aliceblue;
+}
+.center {
+  text-align: center;
+  justify-content: center;
+}
+
+#logo {
+  height: 50px;
+}
+#logo-image {
+  width: 100%;
+  max-width: 300px;
+}
+button {
+  padding: 1em;
+  border-radius: 5px;
+  background: lightgreen;
+  margin: 1em;
+}
+button:hover {
+  cursor: pointer;
+  box-shadow: 0 0 5px grey;
+}
+input {
+  padding: 0.8em;
+  margin: 1em;
+}
+img {
+  border-radius: 4px;
+}
+p {
+  margin-bottom: 0;
+}
+li {
+  list-style: none;
+  display: inline;
+  margin: 1em;
+}
+li a {
+  text-decoration: none;
+}
+h2 {
+  font-family: nyt-cheltenham, georgia, "times new roman", times, serif;
+  font-size: 20px;
+  font-weight: 700;
+}
+.articles {
+  margin: 2em 0;
+  display: flex;
+  border-bottom: solid 1px lightgrey;
+  padding-bottom: 2em;
+}
+.smallArticles {
+  display: flex;
+  flex-direction: column;
+  width: 25%;
+  padding-left: 1em;
+  justify-content: space-between;
+}
+.bigArticle {
+  width: 50%;
+  border-right: solid 1px lightgrey;
+  padding: 0 1em;
+}
+.bigImage {
+  width: 100%;
+  height: auto;
+  max-height: 400px;
+  object-fit: contain;
+  background: lightgrey;
+}
+
+.midArticle {
+  width: 25%;
+  border-right: solid 1px lightgrey;
+  padding: 0 1em;
+}
+.smallArticle {
+  margin-bottom: 2em;
+}
+
+.copyright,
+.date,
+.author {
+  float: right;
+  text-transform: uppercase;
+  color: grey;
+  font-size: 0.6em;
+  font-family: nyt-franklin, helvetica, arial, sans-serif;
+}
+
+.reviews {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+.holder {
+  width: var(--reviewWidth, 40%);
+  height: 7em;
+  overflow: auto;
+  margin: 2em;
+  background: lightgray;
+  border-radius: 5px;
+  padding: 1em;
+  box-shadow: 0 0 9px 0px;
+}
+.byline {
+  margin: -0.8em -0.8em auto auto;
+  text-transform: capitalize;
+  float: right;
+}
+.headline {
+  float: left;
+  margin-left: -0.5em;
+  margin-right: 50%;
+  font-weight: 800;
+  margin-top: -1em;
+  margin-bottom: 1em;
+}
+
+.containerPagination {
+  display: flex;
+  justify-content: center;
+}
+.pagination {
+  border-radius: 50%;
+  background: black;
+  color: white;
+  width: 30px;
+  height: 30px;
+  text-align: center;
+}
+
+.css-2b097c-container {
+  position: relative;
+  box-sizing: border-box;
+  width: 30%;
+  /* text-align: center; */
+  margin: auto;
+  /* height: 40px; */
+}
